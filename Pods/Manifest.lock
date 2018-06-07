@@ -1,0 +1,39 @@
+PODS:
+  - Alamofire (4.5.0)
+  - GoogleMaps (2.3.1):
+    - GoogleMaps/Maps (= 2.3.1)
+  - GoogleMaps/Base (2.3.1)
+  - GoogleMaps/Maps (2.3.1):
+    - GoogleMaps/Base
+  - IQKeyboardManager (4.0.10)
+  - MFSideMenu (0.5.5)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Socket.IO-Client-Swift (10.2.0)
+  - Stripe (10.2.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - GoogleMaps
+  - IQKeyboardManager
+  - MFSideMenu
+  - SDWebImage
+  - Socket.IO-Client-Swift
+  - Stripe
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
+  GoogleMaps: c66a71058b9b1294bcdd5463a68e357fa50c079f
+  IQKeyboardManager: 593ee99b88381f4b9ccb22bd680f22606351bd41
+  MFSideMenu: 268122e6894f2747fc3a2b48578100b232506c60
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Socket.IO-Client-Swift: ecd7fe4d2746a7557e71c2d6e95e23e3be31ddd1
+  Stripe: 5c5a49d750952b1801e4c1f5c4264a08e427c67d
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: f31cdbfddbdf1e70e140241a84d677a9aa9070d8
+
+COCOAPODS: 1.2.0

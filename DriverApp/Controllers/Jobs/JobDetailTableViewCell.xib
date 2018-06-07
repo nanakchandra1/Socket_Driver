@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-UI-Display-Regular.otf">
+            <string>SFUIDisplay-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="jobDetailCell" id="KGk-i7-Jjw" customClass="JobDetailTableViewCell" customModule="DriverApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tC6-PU-SxC" userLabel="MiddleSeprator">
+                        <rect key="frame" x="187" y="8" width="1" height="67.5"/>
+                        <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="TaV-Gx-8Wi"/>
+                        </constraints>
+                    </view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GiH-rJ-Yys" userLabel="Seprator">
+                        <rect key="frame" x="8" y="74.5" width="359" height="1"/>
+                        <color key="backgroundColor" red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="8oJ-Xt-8Dc"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTC-p0-WRM" userLabel="Value Label 1">
+                        <rect key="frame" x="14" y="28.5" width="159" height="0.0"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="12"/>
+                        <color key="textColor" red="0.76078431369999999" green="0.0" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dv2-ld-jJs" userLabel="Parameter Label 1">
+                        <rect key="frame" x="14" y="29.5" width="159" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="GvX-0o-hmh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbr-AS-7yM" userLabel="Value Label 2">
+                        <rect key="frame" x="202" y="28.5" width="159" height="0.0"/>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="12"/>
+                        <color key="textColor" red="0.76078431369999999" green="0.0" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqD-fm-kCd" userLabel="Parameter Label 2">
+                        <rect key="frame" x="202" y="29.5" width="159" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="piX-Fh-L0R"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SFUIDisplay-Regular" family="SF UI Display" pointSize="10"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GiH-rJ-Yys" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="2vT-P5-1gL"/>
+                    <constraint firstItem="Dv2-ld-jJs" firstAttribute="top" secondItem="oTC-p0-WRM" secondAttribute="bottom" constant="1" id="AHm-Fi-gbN"/>
+                    <constraint firstAttribute="trailing" secondItem="Zbr-AS-7yM" secondAttribute="trailing" constant="14" id="EWo-hs-kIY"/>
+                    <constraint firstItem="tC6-PU-SxC" firstAttribute="leading" secondItem="oTC-p0-WRM" secondAttribute="trailing" constant="14" id="Lpg-CV-twk"/>
+                    <constraint firstItem="oTC-p0-WRM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="QfV-ht-nkO"/>
+                    <constraint firstAttribute="trailing" secondItem="GiH-rJ-Yys" secondAttribute="trailing" constant="8" id="TJ4-i3-iE3"/>
+                    <constraint firstAttribute="bottom" secondItem="tC6-PU-SxC" secondAttribute="bottom" id="W1a-Vl-6Eh"/>
+                    <constraint firstItem="Dv2-ld-jJs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="14" id="WdN-eA-Bpa"/>
+                    <constraint firstItem="tC6-PU-SxC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="a1C-OV-359"/>
+                    <constraint firstItem="tC6-PU-SxC" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="a6R-6b-Ok8"/>
+                    <constraint firstItem="Zbr-AS-7yM" firstAttribute="leading" secondItem="tC6-PU-SxC" secondAttribute="trailing" constant="14" id="erK-Ry-40b"/>
+                    <constraint firstItem="xqD-fm-kCd" firstAttribute="top" secondItem="Zbr-AS-7yM" secondAttribute="bottom" constant="1" id="gdv-sj-UtT"/>
+                    <constraint firstAttribute="trailing" secondItem="xqD-fm-kCd" secondAttribute="trailing" constant="14" id="jlA-rV-qZ6"/>
+                    <constraint firstItem="tC6-PU-SxC" firstAttribute="leading" secondItem="Dv2-ld-jJs" secondAttribute="trailing" constant="14" id="neQ-94-Tb0"/>
+                    <constraint firstAttribute="bottom" secondItem="GiH-rJ-Yys" secondAttribute="bottom" id="oZ2-Lf-e0G"/>
+                    <constraint firstItem="oTC-p0-WRM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="0.75" id="p3z-98-4bP"/>
+                    <constraint firstItem="xqD-fm-kCd" firstAttribute="leading" secondItem="tC6-PU-SxC" secondAttribute="trailing" constant="14" id="tie-BX-VAZ"/>
+                    <constraint firstItem="Zbr-AS-7yM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" multiplier="0.75" id="ukj-3r-RZK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomSepratorHeightConstraint" destination="8oJ-Xt-8Dc" id="EWR-hP-az9"/>
+                <outlet property="bottomSepratorV" destination="GiH-rJ-Yys" id="TUr-wO-Vnv"/>
+                <outlet property="middleSepratorBottomConstraint" destination="W1a-Vl-6Eh" id="OnP-tj-Ibb"/>
+                <outlet property="middleSepratorTopConstraint" destination="a1C-OV-359" id="zdb-P0-6e6"/>
+                <outlet property="middleSepratorWidthConstraint" destination="TaV-Gx-8Wi" id="j4q-He-pZZ"/>
+                <outlet property="parameterLabel1" destination="Dv2-ld-jJs" id="4Yk-GY-64A"/>
+                <outlet property="parameterLabel2" destination="xqD-fm-kCd" id="HRk-Cc-epb"/>
+                <outlet property="valueLabel1" destination="oTC-p0-WRM" id="6gX-CA-qWM"/>
+                <outlet property="valueLabel2" destination="Zbr-AS-7yM" id="3df-s0-vSZ"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="54"/>
+        </tableViewCell>
+    </objects>
+</document>
